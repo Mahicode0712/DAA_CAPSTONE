@@ -46,6 +46,7 @@ The route comparison includes 2-opt only when there are at most 60 stops. Exampl
 - 0/1 knapsack uses the full two-dimensional dynamic-programming table and traceback. A brute-force oracle is included for tests only.
 - Binary-heap Dijkstra computes shortest paths on the undirected adjacency-list graph.
 - Nearest-neighbour TSP repeatedly selects the closest unvisited destination using cached Dijkstra trees and returns to the depot. 2-opt can improve that tour; exhaustive TSP is restricted to eight stops for comparison.
+- The CLI reports the nearest-neighbour approximation ratio against the exact tour when a trip has at most eight stops.
 
 ## Data formats
 

@@ -5,13 +5,14 @@ from pathlib import Path
 
 from courier.models import RoadGraph, load_parcels
 from courier.planner import TripPlan, plan_all_trips, plan_trip
+from courier.routing import tour_approximation_ratio
 
 
 ROOT = Path(__file__).parent
 
 
 def format_trip(plan: TripPlan, graph: RoadGraph, trip_number: int = 1) -> str:
-    """Format one trip's parcel, packing, route, and timing results; time and space are O(n + path length)."""
+    """Format one trip's results and exact small-tour comparison; time can include O(k! k), space is O(n + path length)."""
     lines = [f"TRIP {trip_number}", "=" * 72, "Sorted parcels (deadline asc, value desc):"]
     lines.append(f"{'ID':<9} {'Destination':<24} {'kg':>4} {'Value':>6} {'Deadline h':>12}")
     for parcel in plan.sorted_parcels:
@@ -33,9 +34,13 @@ def format_trip(plan: TripPlan, graph: RoadGraph, trip_number: int = 1) -> str:
             "Full road path:",
             "  " + " -> ".join(graph.names[node] for node in plan.road_path),
             f"Total distance: {plan.total_km:.2f} km",
-            "Stage timings:",
         ]
     )
+    stops = plan.stop_order[1:-1]
+    if len(stops) <= 8:
+        ratio = tour_approximation_ratio(graph, plan.stop_order, stops)
+        lines.append(f"Nearest-neighbour approximation ratio: {ratio:.3f}")
+    lines.append("Stage timings:")
     for stage, seconds in plan.timings.items():
         lines.append(f"  {stage.title():<10} {seconds:.6f} seconds")
     return "\n".join(lines)

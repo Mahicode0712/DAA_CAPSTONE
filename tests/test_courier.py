@@ -12,6 +12,7 @@ from courier.routing import (
     nearest_neighbor_tour,
     reconstruct_path,
     route_length,
+    tour_approximation_ratio,
     two_opt,
     expand_tour_to_road_path,
 )
@@ -152,6 +153,7 @@ class RoutingTests(unittest.TestCase):
         self.assertLessEqual(improved_length, length + 1e-9)
         self.assertCountEqual(improved_route[1:-1], stops)
         self.assertIsNotNone(optimum_route)
+        self.assertGreaterEqual(tour_approximation_ratio(graph, route, stops), 1.0)
 
     def test_two_opt_matches_or_improves_brute_force(self) -> None:
         """Ensure 2-opt does not exceed the small-instance optimum; time includes O(k! k) oracle."""

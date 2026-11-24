@@ -31,10 +31,11 @@ Delivery stop order:
 Full road path:
   Depot -> Delivery Point 04 -> Delivery Point 03 -> Delivery Point 04 -> Delivery Point 06 -> Delivery Point 08 -> Delivery Point 09 -> Delivery Point 08 -> Depot -> Delivery Point 05 -> Depot
 Total distance: 80.01 km
+Nearest-neighbour approximation ratio: 1.000
 Stage timings:
-  Sorting    0.000016 seconds
-  Knapsack   0.000075 seconds
-  Routing    0.000065 seconds
+  Sorting    0.000013 seconds
+  Knapsack   0.000085 seconds
+  Routing    0.000071 seconds
 
 TRIP 2
 ========================================================================
@@ -60,8 +61,9 @@ Delivery stop order:
 Full road path:
   Depot -> Delivery Point 04 -> Delivery Point 06 -> Delivery Point 04 -> Depot -> Delivery Point 01 -> Depot
 Total distance: 32.58 km
+Nearest-neighbour approximation ratio: 1.000
 Stage timings:
-  Sorting    0.000006 seconds
+  Sorting    0.000007 seconds
   Knapsack   0.000038 seconds
   Routing    0.000041 seconds
 
@@ -86,10 +88,11 @@ Delivery stop order:
 Full road path:
   Depot -> Delivery Point 01 -> Delivery Point 07 -> Delivery Point 04 -> Delivery Point 06 -> Delivery Point 08 -> Depot
 Total distance: 61.70 km
+Nearest-neighbour approximation ratio: 1.000
 Stage timings:
   Sorting    0.000003 seconds
   Knapsack   0.000025 seconds
-  Routing    0.000060 seconds
+  Routing    0.000038 seconds
 
 TRIP 4
 ========================================================================
@@ -109,9 +112,10 @@ Delivery stop order:
 Full road path:
   Depot -> Delivery Point 04 -> Delivery Point 03 -> Delivery Point 04 -> Depot -> Delivery Point 05 -> Delivery Point 10 -> Delivery Point 05 -> Depot
 Total distance: 89.62 km
+Nearest-neighbour approximation ratio: 1.000
 Stage timings:
   Sorting    0.000001 seconds
-  Knapsack   0.000017 seconds
+  Knapsack   0.000015 seconds
   Routing    0.000028 seconds
 
 All trips complete: 4 trip(s), 15 parcels delivered.

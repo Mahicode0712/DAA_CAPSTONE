@@ -1,0 +1,2 @@
+Generated small: 12 nodes, 18 edges, 15 parcels.
+Generated large: 60 nodes, 90 edges, 150 parcels.

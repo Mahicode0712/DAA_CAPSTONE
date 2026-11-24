@@ -163,6 +163,19 @@ def brute_force_tour(
     return best_route, best_length
 
 
+def tour_approximation_ratio(
+    graph: RoadGraph, route: Sequence[int], stops: Sequence[int], depot: int = 0
+) -> float:
+    """Compare a tour with the exact optimum for at most eight stops; time is O(k! k), space is O(kV)."""
+    if len(stops) > 8:
+        raise ValueError("Approximation ratio is available only for eight stops or fewer.")
+    actual_length = route_length(graph, route)
+    _, optimal_length = brute_force_tour(graph, stops, depot)
+    if optimal_length == 0:
+        return 1.0 if actual_length == 0 else math.inf
+    return actual_length / optimal_length
+
+
 def expand_tour_to_road_path(
     graph: RoadGraph, route: Sequence[int]
 ) -> tuple[list[int], float]:

@@ -31,7 +31,8 @@ Delivery stop order:
 Full road path:
   Depot -> Delivery Point 04 -> Delivery Point 03 -> Delivery Point 04 -> Delivery Point 06 -> Delivery Point 08 -> Delivery Point 09 -> Delivery Point 08 -> Depot -> Delivery Point 05 -> Depot
 Total distance: 80.01 km
+Nearest-neighbour approximation ratio: 1.000
 Stage timings:
-  Sorting    0.000016 seconds
-  Knapsack   0.000075 seconds
-  Routing    0.000067 seconds
+  Sorting    0.000013 seconds
+  Knapsack   0.000073 seconds
+  Routing    0.000066 seconds

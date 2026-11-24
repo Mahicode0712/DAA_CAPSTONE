@@ -1,0 +1,9 @@
+Benchmark results (median of three runs; seconds):
+    n  nodes        merge       insert     knapsack        route        NN km     2-opt km
+   50     20     0.000033     0.000049     0.000762     0.000166       248.13       245.64
+  100     25     0.000074     0.000162     0.001836     0.000500       279.43       250.87
+  200     50     0.000453     0.001001     0.002825     0.003401       529.98       447.77
+  400    100     0.000381     0.002606     0.005888     0.004582      1299.19      not run
+  800    200     0.000851     0.010214     0.011984     0.019776      2185.23      not run
+ 1600    400     0.001898     0.042016     0.024221     0.092487      4549.86      not run
+Saved CSV and charts in /Users/mahisingh/Desktop/DAA-CAPSTONE/outputs.

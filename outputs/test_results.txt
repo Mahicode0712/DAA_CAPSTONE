@@ -1,0 +1,31 @@
+test_dynamic_programming_matches_brute_force (tests.test_courier.KnapsackTests.test_dynamic_programming_matches_brute_force)
+Compare 30 deterministic random instances against exhaustive subsets; time is O(30 * 2^n n). ... ok
+test_hand_checked_knapsack_example (tests.test_courier.KnapsackTests.test_hand_checked_knapsack_example)
+Verify the requested capacity-seven example has value nine; time is O(nC). ... ok
+test_zero_capacity (tests.test_courier.KnapsackTests.test_zero_capacity)
+Ensure no positive-weight parcel is selected at zero capacity; time is O(n). ... ok
+test_plan_all_trips_covers_every_parcel (tests.test_courier.PlannerTests.test_plan_all_trips_covers_every_parcel)
+Ensure repeated plans deliver each input parcel once within capacity; time depends on repeated planning. ... ok
+test_plan_trip_respects_capacity (tests.test_courier.PlannerTests.test_plan_trip_respects_capacity)
+Ensure the selected payload fits the configured van; time is O(n log n + nC + route). ... ok
+test_dijkstra_distances_and_path (tests.test_courier.RoutingTests.test_dijkstra_distances_and_path)
+Verify solved distances and the shortest path on the five-node graph; time is O((V + E) log V). ... ok
+test_nearest_neighbor_and_two_opt_against_optimum (tests.test_courier.RoutingTests.test_nearest_neighbor_and_two_opt_against_optimum)
+Check tour membership, closed-route length, optimum bound, and 2-opt monotonicity; time includes O(k! k) oracle. ... ok
+test_negative_edge_is_rejected (tests.test_courier.RoutingTests.test_negative_edge_is_rejected)
+Ensure invalid negative roads are rejected at graph construction; time and space are O(1). ... ok
+test_two_opt_matches_or_improves_brute_force (tests.test_courier.RoutingTests.test_two_opt_matches_or_improves_brute_force)
+Ensure 2-opt does not exceed the small-instance optimum; time includes O(k! k) oracle. ... ok
+test_unreachable_node_raises_error (tests.test_courier.RoutingTests.test_unreachable_node_raises_error)
+Check that an unreachable target is explicit; time is O(V). ... ok
+test_merge_sort_empty_and_single_item (tests.test_courier.SortingTests.test_merge_sort_empty_and_single_item)
+Check empty and singleton inputs; time and space are O(1). ... ok
+test_merge_sort_is_stable_for_equal_keys (tests.test_courier.SortingTests.test_merge_sort_is_stable_for_equal_keys)
+Ensure equal-priority parcels retain their input order; time is O(n log n). ... ok
+test_merge_sort_matches_python_sorted_on_random_parcels (tests.test_courier.SortingTests.test_merge_sort_matches_python_sorted_on_random_parcels)
+Compare against Python's stable sorted result over 200 parcels; time is O(n log n). ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.003s
+
+OK

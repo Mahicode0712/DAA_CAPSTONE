@@ -167,6 +167,6 @@ Full road path:
   Depot -> Delivery Point 01 -> Delivery Point 41 -> Delivery Point 01 -> Delivery Point 52 -> Delivery Point 58 -> Delivery Point 27 -> Delivery Point 17 -> Delivery Point 51 -> Delivery Point 21 -> Delivery Point 42 -> Delivery Point 16 -> Delivery Point 25 -> Delivery Point 30 -> Delivery Point 47 -> Delivery Point 04 -> Delivery Point 29 -> Delivery Point 23 -> Delivery Point 24 -> Delivery Point 32 -> Delivery Point 45 -> Delivery Point 32 -> Delivery Point 39 -> Delivery Point 32 -> Delivery Point 24 -> Delivery Point 23 -> Delivery Point 22 -> Delivery Point 08 -> Delivery Point 19 -> Delivery Point 10 -> Delivery Point 12 -> Delivery Point 10 -> Delivery Point 02 -> Delivery Point 15 -> Delivery Point 03 -> Delivery Point 05 -> Delivery Point 03 -> Delivery Point 14 -> Delivery Point 03 -> Delivery Point 06 -> Delivery Point 07 -> Delivery Point 17 -> Delivery Point 51 -> Delivery Point 21 -> Delivery Point 50 -> Delivery Point 33 -> Delivery Point 54 -> Delivery Point 18 -> Delivery Point 16 -> Delivery Point 42 -> Delivery Point 52 -> Delivery Point 01 -> Depot -> Delivery Point 11 -> Delivery Point 43 -> Delivery Point 11 -> Depot
 Total distance: 450.64 km
 Stage timings:
-  Sorting    0.000346 seconds
-  Knapsack   0.002930 seconds
-  Routing    0.003092 seconds
+  Sorting    0.000126 seconds
+  Knapsack   0.001435 seconds
+  Routing    0.002184 seconds
