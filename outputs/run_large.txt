@@ -1,0 +1,172 @@
+Mini-Courier Planner | dataset=large | capacity=120 kg
+Parcels: 150 | graph nodes: 60
+
+TRIP 1
+========================================================================
+Sorted parcels (deadline asc, value desc):
+ID        Destination                kg  Value   Deadline h
+P0003     Delivery Point 43          14     53          1.3
+P0110     Delivery Point 24           4     94          1.5
+P0064     Delivery Point 10           1     91          1.6
+P0132     Delivery Point 03          16     26          2.1
+P0150     Delivery Point 39           7     95          2.2
+P0148     Delivery Point 17           2     22          3.0
+P0034     Delivery Point 04          11     58          3.4
+P0039     Delivery Point 54           1     84          4.6
+P0118     Delivery Point 36          10     42          5.0
+P0041     Delivery Point 17           9     20          5.1
+P0059     Delivery Point 11          22     87          5.4
+P0011     Delivery Point 41           7     36          5.6
+P0128     Delivery Point 07          11     33          5.6
+P0077     Delivery Point 34          10     67          6.1
+P0068     Delivery Point 30          19     99          6.3
+P0009     Delivery Point 05           4     51          7.7
+P0107     Delivery Point 14           8     83          8.3
+P0067     Delivery Point 19          17     59          8.4
+P0104     Delivery Point 19           8     94          8.6
+P0028     Delivery Point 58           3     18          9.6
+P0098     Delivery Point 30           4     87         10.4
+P0144     Delivery Point 52          18     80         10.5
+P0109     Delivery Point 53          15     97         10.7
+P0025     Delivery Point 41          22     93         10.7
+P0105     Delivery Point 22           1     20         10.8
+P0056     Delivery Point 41          17     72         10.9
+P0126     Delivery Point 14           7     22         11.3
+P0029     Delivery Point 44          17     16         11.6
+P0094     Delivery Point 16          15     35         11.8
+P0145     Delivery Point 05          17     78         11.9
+P0121     Delivery Point 25           4     40         12.8
+P0044     Delivery Point 38          20     36         12.8
+P0086     Delivery Point 52          12     32         13.5
+P0061     Delivery Point 18           4     82         13.6
+P0087     Delivery Point 53          22     91         13.8
+P0050     Delivery Point 25          17     42         14.3
+P0081     Delivery Point 30           3     88         14.6
+P0020     Delivery Point 53          13     83         14.6
+P0113     Delivery Point 25          15     87         14.9
+P0049     Delivery Point 43          25     17         15.2
+P0074     Delivery Point 21          18     63         15.3
+P0097     Delivery Point 44           6     30         15.7
+P0101     Delivery Point 50          17     26         15.7
+P0108     Delivery Point 19          21     72         16.2
+P0142     Delivery Point 12           9     85         16.5
+P0076     Delivery Point 51           5     44         16.7
+P0102     Delivery Point 52           6     48         17.1
+P0047     Delivery Point 40           8     52         17.2
+P0088     Delivery Point 15          19     62         17.4
+P0092     Delivery Point 10          14     58         17.6
+P0002     Delivery Point 08           4     68         18.5
+P0116     Delivery Point 53           9     57         18.6
+P0069     Delivery Point 58          23     49         18.6
+P0127     Delivery Point 52          19     59         19.8
+P0030     Delivery Point 23           7     46         20.1
+P0054     Delivery Point 37          24     43         20.2
+P0013     Delivery Point 20          14     86         20.8
+P0037     Delivery Point 47           1     75         21.4
+P0038     Delivery Point 03          11     63         21.8
+P0042     Delivery Point 14          14     81         22.1
+P0004     Delivery Point 05           4     44         22.5
+P0070     Delivery Point 11           4     77         22.9
+P0051     Delivery Point 52           1     55         22.9
+P0057     Delivery Point 33          10     76         23.2
+P0099     Delivery Point 10           6     37         23.7
+P0007     Delivery Point 16          15     90         24.0
+P0139     Delivery Point 50          14     67         24.2
+P0001     Delivery Point 46          24     22         24.2
+P0103     Delivery Point 43          22     82         24.3
+P0043     Delivery Point 58           6     59         24.6
+P0147     Delivery Point 48           3     17         24.7
+P0031     Delivery Point 11          20     71         25.0
+P0100     Delivery Point 51          19     66         25.3
+P0135     Delivery Point 55           9     84         25.7
+P0021     Delivery Point 23           9     88         26.1
+P0131     Delivery Point 39          25     62         26.1
+P0133     Delivery Point 27          12     16         26.2
+P0134     Delivery Point 11          11     14         26.6
+P0111     Delivery Point 51           9     44         26.7
+P0036     Delivery Point 18           6     16         27.3
+P0136     Delivery Point 40          11     27         27.5
+P0032     Delivery Point 05          10     32         28.0
+P0065     Delivery Point 45           3     71         28.6
+P0052     Delivery Point 06          23     81         28.7
+P0138     Delivery Point 18          22     87         28.8
+P0096     Delivery Point 50          19     75         29.1
+P0075     Delivery Point 23          25     98         29.5
+P0012     Delivery Point 18           9     89         29.7
+P0123     Delivery Point 46           6     24         29.7
+P0016     Delivery Point 29          13     56         29.8
+P0146     Delivery Point 31          21     11         29.9
+P0005     Delivery Point 06          13     60         30.4
+P0085     Delivery Point 44          17     15         30.6
+P0143     Delivery Point 15          20     60         31.3
+P0022     Delivery Point 41           5     85         31.8
+P0006     Delivery Point 21           1     75         32.3
+P0117     Delivery Point 42          23     54         32.5
+P0010     Delivery Point 51          19     28         32.6
+P0027     Delivery Point 46          14     27         32.6
+P0019     Delivery Point 33          21     56         32.7
+P0090     Delivery Point 02          17     94         33.0
+P0080     Delivery Point 41           5     83         33.0
+P0120     Delivery Point 46           8     18         33.8
+P0082     Delivery Point 12           8     97         34.0
+P0089     Delivery Point 31          23     39         34.5
+P0125     Delivery Point 41          14     93         34.7
+P0008     Delivery Point 42           3     89         34.9
+P0073     Delivery Point 43           1     64         34.9
+P0017     Delivery Point 13          25     51         34.9
+P0141     Delivery Point 28          18     70         35.1
+P0084     Delivery Point 24          24     89         35.9
+P0045     Delivery Point 22           7     55         35.9
+P0124     Delivery Point 42           7     31         35.9
+P0048     Delivery Point 02          13     70         36.1
+P0040     Delivery Point 08           1     95         36.4
+P0140     Delivery Point 38          16     55         36.5
+P0063     Delivery Point 52           8     52         37.0
+P0137     Delivery Point 33          25     21         37.4
+P0079     Delivery Point 01           8     40         37.6
+P0112     Delivery Point 05          21     88         37.7
+P0014     Delivery Point 52           6     36         38.4
+P0060     Delivery Point 19          11     16         39.0
+P0129     Delivery Point 44          12     11         39.4
+P0106     Delivery Point 56          25     51         39.5
+P0058     Delivery Point 47          12     54         39.7
+P0083     Delivery Point 58           6     66         40.3
+P0015     Delivery Point 31          13     91         40.9
+P0115     Delivery Point 30           5     22         40.9
+P0062     Delivery Point 29           3     88         41.1
+P0095     Delivery Point 10           8     53         41.4
+P0119     Delivery Point 57           5     17         41.4
+P0046     Delivery Point 41          14     78         41.7
+P0091     Delivery Point 18          24     58         41.8
+P0024     Delivery Point 52          25     26         42.0
+P0018     Delivery Point 23          15     30         42.3
+P0023     Delivery Point 27           1     70         42.4
+P0149     Delivery Point 32          25     13         42.6
+P0053     Delivery Point 36          11     98         42.8
+P0072     Delivery Point 52           7     70         43.1
+P0035     Delivery Point 42           9     47         43.5
+P0055     Delivery Point 44          18     95         43.8
+P0114     Delivery Point 24          22     33         43.9
+P0071     Delivery Point 07           3     33         44.6
+P0066     Delivery Point 19          24     27         44.6
+P0078     Delivery Point 53          24     80         44.9
+P0026     Delivery Point 22          16     23         45.8
+P0130     Delivery Point 41           9     33         46.1
+P0122     Delivery Point 57          14     13         46.4
+P0033     Delivery Point 30           9     94         46.6
+P0093     Delivery Point 03          19     33         47.7
+
+Packing plan (0/1 dynamic programming):
+  Best value: 2319
+  Load: 120 kg
+  Chosen parcel ids: P0110, P0064, P0150, P0148, P0039, P0009, P0107, P0104, P0098, P0105, P0121, P0061, P0081, P0002, P0037, P0004, P0070, P0051, P0043, P0065, P0022, P0006, P0080, P0082, P0008, P0073, P0040, P0083, P0062, P0023, P0071, P0033
+
+Delivery stop order:
+  Depot -> Delivery Point 41 -> Delivery Point 52 -> Delivery Point 58 -> Delivery Point 27 -> Delivery Point 17 -> Delivery Point 21 -> Delivery Point 42 -> Delivery Point 25 -> Delivery Point 30 -> Delivery Point 47 -> Delivery Point 29 -> Delivery Point 24 -> Delivery Point 45 -> Delivery Point 39 -> Delivery Point 22 -> Delivery Point 08 -> Delivery Point 19 -> Delivery Point 10 -> Delivery Point 12 -> Delivery Point 05 -> Delivery Point 14 -> Delivery Point 07 -> Delivery Point 54 -> Delivery Point 18 -> Delivery Point 11 -> Delivery Point 43 -> Depot
+Full road path:
+  Depot -> Delivery Point 01 -> Delivery Point 41 -> Delivery Point 01 -> Delivery Point 52 -> Delivery Point 58 -> Delivery Point 27 -> Delivery Point 17 -> Delivery Point 51 -> Delivery Point 21 -> Delivery Point 42 -> Delivery Point 16 -> Delivery Point 25 -> Delivery Point 30 -> Delivery Point 47 -> Delivery Point 04 -> Delivery Point 29 -> Delivery Point 23 -> Delivery Point 24 -> Delivery Point 32 -> Delivery Point 45 -> Delivery Point 32 -> Delivery Point 39 -> Delivery Point 32 -> Delivery Point 24 -> Delivery Point 23 -> Delivery Point 22 -> Delivery Point 08 -> Delivery Point 19 -> Delivery Point 10 -> Delivery Point 12 -> Delivery Point 10 -> Delivery Point 02 -> Delivery Point 15 -> Delivery Point 03 -> Delivery Point 05 -> Delivery Point 03 -> Delivery Point 14 -> Delivery Point 03 -> Delivery Point 06 -> Delivery Point 07 -> Delivery Point 17 -> Delivery Point 51 -> Delivery Point 21 -> Delivery Point 50 -> Delivery Point 33 -> Delivery Point 54 -> Delivery Point 18 -> Delivery Point 16 -> Delivery Point 42 -> Delivery Point 52 -> Delivery Point 01 -> Depot -> Delivery Point 11 -> Delivery Point 43 -> Delivery Point 11 -> Depot
+Total distance: 450.64 km
+Stage timings:
+  Sorting    0.000346 seconds
+  Knapsack   0.002930 seconds
+  Routing    0.003092 seconds

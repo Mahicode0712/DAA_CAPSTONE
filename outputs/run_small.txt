@@ -1,0 +1,37 @@
+Mini-Courier Planner | dataset=small | capacity=60 kg
+Parcels: 15 | graph nodes: 12
+
+TRIP 1
+========================================================================
+Sorted parcels (deadline asc, value desc):
+ID        Destination                kg  Value   Deadline h
+P0006     Delivery Point 01          21     70          2.9
+P0008     Delivery Point 05          13     70          4.0
+P0012     Delivery Point 04          12     81          7.0
+P0015     Delivery Point 06          16     39         13.8
+P0009     Delivery Point 03           9     58         15.7
+P0007     Delivery Point 07          10     29         16.2
+P0001     Delivery Point 03          10     17         24.1
+P0011     Delivery Point 08          24     56         26.7
+P0004     Delivery Point 09           5     71         32.9
+P0013     Delivery Point 01          22     82         33.6
+P0002     Delivery Point 10          23     26         37.4
+P0010     Delivery Point 03          15     95         40.2
+P0003     Delivery Point 05           4     34         41.1
+P0014     Delivery Point 04          20     79         44.0
+P0005     Delivery Point 03           9     15         46.6
+
+Packing plan (0/1 dynamic programming):
+  Best value: 409
+  Load: 58 kg
+  Chosen parcel ids: P0008, P0012, P0009, P0004, P0010, P0003
+
+Delivery stop order:
+  Depot -> Delivery Point 04 -> Delivery Point 03 -> Delivery Point 09 -> Delivery Point 05 -> Depot
+Full road path:
+  Depot -> Delivery Point 04 -> Delivery Point 03 -> Delivery Point 04 -> Delivery Point 06 -> Delivery Point 08 -> Delivery Point 09 -> Delivery Point 08 -> Depot -> Delivery Point 05 -> Depot
+Total distance: 80.01 km
+Stage timings:
+  Sorting    0.000016 seconds
+  Knapsack   0.000075 seconds
+  Routing    0.000067 seconds
